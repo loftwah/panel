@@ -21,7 +21,7 @@ class _state(param.Parameterized):
     """
 
     webdriver = param.Parameter(default=None, doc="""
-      Selenium webdriver used to export bokeh models to pngs.""")
+      Selenium webdriver used to export bokeh models to PNG images.""")
 
     # Whether to hold comm events
     _hold = False

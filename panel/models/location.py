@@ -1,4 +1,4 @@
-"""This module provides a Bokeh Location Model as a wrapper around the JS window.location api"""
+"""This module provides a Bokeh Location Model as a wrapper around the JS window.location API"""
 
 from bokeh.core.properties import Bool, String
 from bokeh.models import Model
@@ -6,7 +6,7 @@ from bokeh.models import Model
 
 class Location(Model):
     """
-    A python wrapper around the JS `window.location` api. See
+    A python wrapper around the JS `window.location` API. See
     https://www.w3schools.com/js/js_window_location.asp and
     https://www.w3.org/TR/html52/browsers.html#the-location-interface
 
